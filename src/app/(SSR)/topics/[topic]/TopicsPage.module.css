@@ -1,0 +1,16 @@
+.image {
+    object-fit: cover;
+    border-radius: .25rem;
+    margin: 4px;
+    align-self: center;
+    justify-self: center;
+}
+
+.imageGrid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-flow: row;
+    gap: .5rem;
+
+}
